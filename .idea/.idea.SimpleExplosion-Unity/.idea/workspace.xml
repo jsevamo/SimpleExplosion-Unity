@@ -18,7 +18,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hero.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
       </list>
     </option>
   </component>
@@ -73,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579204663154</updated>
       <workItem from="1579204667300" duration="30000" />
-      <workItem from="1579205817898" duration="903000" />
+      <workItem from="1579205817898" duration="4043000" />
     </task>
     <servers />
   </component>
@@ -83,6 +85,10 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
+    <state x="580" y="233" key="RiderGenerateDialog" timestamp="1579208889106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="233" key="RiderGenerateDialog/0.0.1920.1040/-2388.0.1061.701@0.0.1920.1040" timestamp="1579208889106" />
     <state x="460" y="160" key="SettingsEditor" timestamp="1579205843969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

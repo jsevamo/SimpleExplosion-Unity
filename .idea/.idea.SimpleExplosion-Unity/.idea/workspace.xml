@@ -8,7 +8,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SimpleExplosion-Unity" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hero.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1WUWThJO7BpaF7OEqUTctqROXyb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,6 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -60,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579204663154</updated>
       <workItem from="1579204667300" duration="30000" />
+      <workItem from="1579205817898" duration="903000" />
     </task>
     <servers />
   </component>
@@ -69,6 +83,10 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
+    <state x="460" y="160" key="SettingsEditor" timestamp="1579205843969">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="460" y="160" key="SettingsEditor/0.0.1920.1040/-2388.0.1061.701@0.0.1920.1040" timestamp="1579205843969" />
     <state x="622" y="238" key="search.everywhere.popup" timestamp="1579204766809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

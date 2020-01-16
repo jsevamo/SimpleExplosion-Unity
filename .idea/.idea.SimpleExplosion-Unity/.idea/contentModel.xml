@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\USER\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\USER\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SimpleExplosion-Unity.1359287156.00" t="ExcludeRecursive" />
-    <e p="D:\GitHub\Unity\SimpleExplosion-Unity" t="IncludeRecursive">
+    <e p="C:\Users\USER\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SimpleExplosion-Unity.-1540623325.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\Unity\SimpleExplosion-Unity\SimpleExplosion-Unity" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Test.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Enemy.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
+          <e p="Hero.cs" t="Include" />
+        </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

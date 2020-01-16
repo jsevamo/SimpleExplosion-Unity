@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown("p"))
         {
-            GameObject enemyInstantiate = Instantiate(enemy, new Vector3(0, 10, 0), Quaternion.identity);
+            GameObject enemyInstantiate = Instantiate(enemy, new Vector3(Random.Range(-5.0f, 5.0f), 3, Random.Range(-5.0f, 5.0f)), Quaternion.identity);
             enemies.Add(enemyInstantiate);
 
             Enemy e = enemyInstantiate.GetComponent<Enemy>();
@@ -49,23 +49,28 @@ public class GameController : MonoBehaviour
 
     void CheckIfHeroHasBeenClicked()
     {
-        if (Input.GetMouseButtonDown(0)) {
+        if (enemies.Count > 0)
+        {
+            if (Input.GetMouseButtonDown(0)) {
            
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
             
-            if(Physics.Raycast(ray, out hit))
-            {
-                if(hit.transform.name == "Hero")
+                if(Physics.Raycast(ray, out hit))
                 {
-                    for (int i = 0; i < enemies.Count; i++)
+                    if(hit.transform.name == "Hero")
                     {
-                        Enemy e = enemies_ofTypeEnemy[i];
-                        e.Explode();
+                        for (int i = 0; i < enemies.Count; i++)
+                        {
+                            Enemy e = enemies_ofTypeEnemy[i];
+                            e.Explode();
+                        }
                     }
                 }
-            }
             
+            }
         }
+        
+        
     }
 }

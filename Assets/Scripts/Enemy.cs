@@ -5,9 +5,13 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    private Material mat;
+    
     void Start()
     {
-        
+        mat = GetComponent<Renderer>().material;
+        mat.color = new Color(Random.Range(0.0f,1.0f), Random.Range(0.0f,1.0f), Random.Range(0.0f,1.0f));
     }
 
     // Update is called once per frame
